@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# rust 教程
+# rust 学习路线图
 
 ## 快速开始:
 
