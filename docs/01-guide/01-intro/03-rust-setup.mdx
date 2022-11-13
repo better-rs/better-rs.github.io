@@ -8,5 +8,116 @@ sidebar_position: 3
 # Rust 搭建开发环境
 
 
+## 安装 Rust
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+- https://www.rust-lang.org/zh-CN/learn/get-started
+
+
+> 安装 rustup:
+
+
+```ruby
+
+# 安装 rustup:
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+
+➤ rustup show
+Default host: aarch64-apple-darwin
+rustup home:  /Users/dev/.rustup
+
+installed toolchains
+--------------------
+
+stable-aarch64-apple-darwin
+nightly-2022-07-31-aarch64-apple-darwin
+nightly-aarch64-apple-darwin (default)
+1.61.0-aarch64-apple-darwin
+1.62.0-aarch64-apple-darwin
+
+active toolchain
+----------------
+
+nightly-aarch64-apple-darwin (default)
+rustc 1.67.0-nightly (85f4f41de 2022-11-08)
+
+
+```
+
+> cargo 使用:
+
+- ✅ cargo 是 rust 官方的包管理工具.
+- 类似 python 的 `pip`, go 的 `go mod`. nodejs 的 `npm/yarn/pnpm` 等.
+- ✅ cargo build 可以构建项目
+- ✅ cargo run 可以运行项目
+- ✅ cargo test 可以测试项目
+- ✅ cargo doc 可以为项目构建文档
+- ✅ cargo publish 可以将库发布到 crates.io。
+
+```ruby
+
+cargo --version
+cargo 1.67.0-nightly (9286a1beb 2022-11-04)
+
+```
+
+> 验证安装成功:
+
+
+```ruby
+
+➤ rustc --version
+rustc 1.67.0-nightly (85f4f41de 2022-11-08)
+
+```
+
+## IDE/编辑器配置:
+
+- 推荐使用 Clion 和 vscode.
+
+
+### Clion 配置
+
+- [clion](https://www.jetbrains.com/zh-cn/clion/) 是 jetbrains 开发的 Rust/C/C++ 开发工具.
+- Rust 首选开发工具.
+- 目前 `Clion` 对 rust 的支持比 `vscode + ra` 更强大(宏展开/代码补全).
+
+
+> 插件安装:
+
+- [Rust 插件](https://plugins.jetbrains.com/plugin/8182-rust)
+
+> rust 相关配置:
+
+- action 开启 `org.rust.cargo.evaluate.build.scripts` 实验选项.
+- [clion - experimental-features](https://plugins.jetbrains.com/plugin/8182-rust/docs/rust-faq.html#experimental-features)
+
+> clion 配置完成.
+
+### vscode + rust-analyzer 配置
+
+> 插件安装:
+
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+> 安装 rust-analyzer:
+
+- [rust-analyzer](https://github.com/rust-lang/rust-analyzer) 是 rust 官方推荐的 LSP 工具.
+- [rust-analyzer 安装教程](https://rust-analyzer.github.io/manual.html#rustup)
+
+
+```ruby
+
+# 推荐安装方式:
+rustup component add rust-analyzer
+
+
+# macos:
+brew install rust-analyzer
+
+
+```
+
+> vscode 配置完成.
+
+
