@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# rust 学习路线图
+# rust translate fr TODO
 
 ## 快速开始:
 

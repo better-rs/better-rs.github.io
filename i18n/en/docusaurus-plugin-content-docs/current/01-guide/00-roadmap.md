@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# rust translate zh TODO
+# rust translate en TODO
 
 ## 快速开始:
 
