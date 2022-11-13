@@ -11,6 +11,16 @@ tasks:
 
   ###########################################################################
 
+  quick:
+    cmds:
+      - task: commit
+      - task: commit
+
+  commit:
+    cmds:
+      - git add .
+      - git commit -m "update"
+
   push:
     cmds:
       - git push origin main --tags

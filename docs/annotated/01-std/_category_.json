@@ -1,7 +1,8 @@
 {
-  "label": "std - 标准库",
+  "label": "Rust 标准库",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "zig std 标准库源码分析."
+    "description": "5 minutes to learn the most important Rust concepts."
   }
 }
