@@ -14,12 +14,15 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+
+        {/* Todo X: 更新 */}
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
 
-            Zig 教程
+            Rust 学习教程
 
           </Link>
         </div>

@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Better Zig",
-  tagline: "better zig documentation",
-  url: "https://better-zig.github.io", // todo x: update
+  title: "Better Rust",
+  tagline: "a Better Rust Learning Tutorial",
+  url: "https://better-rs.github.io", // todo x: update
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "better-zig", // todo x: Usually your GitHub org/user name.
-  projectName: "better-zig.github.io", // todo x: Usually your repo name.
+  organizationName: "better-rs", // todo x: Usually your GitHub org/user name.
+  projectName: "better-rs.github.io", // todo x: Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -60,10 +60,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Zig 学习", // todo x
+        title: "Rust 学习", // todo x
         logo: {
-          alt: "Zig Logo",
-          src: "img/logo.svg",
+          alt: "Rust Logo",
+          src: "img/logo.png",
         },
         items: [
           // TODO X: 教程
@@ -105,7 +105,7 @@ const config = {
           { to: "/blog", label: "博客", position: "left" },
 
           {
-            href: "https://github.com/better-zig",
+            href: "https://github.com/better-rs",
             label: "GitHub",
             position: "right",
           },
@@ -120,7 +120,7 @@ const config = {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: "https://github.com/better-zig",
+                href: "https://github.com/better-rs",
                 label: "Help Us Translate",
               },
             ],
@@ -165,7 +165,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/better-zig", // todo x
+                href: "https://github.com/better-rs", // todo x
               },
             ],
           },
