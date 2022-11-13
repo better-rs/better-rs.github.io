@@ -1,1 +1,1 @@
-# zig std
+# rust std

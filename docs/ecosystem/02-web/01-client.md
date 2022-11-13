@@ -1,2 +1,2 @@
-# zig web 客户端:
+# rust web 客户端:
 

@@ -1,13 +1,29 @@
-# Zig 教程:
+# Rust 学习教程:
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Zig 学习:
+### Rust 学习:
 
-- https://better-zig.github.io/
+- https://better-rs.github.io/
 - ⭐⭐⭐⭐⭐
 
-### reference:
+### Deployment:
+
+> 启动脚本:
+
+- [Taskfile](Taskfile.yml)
+
+> 配置:
+
+- [docusaurus.config.js](docusaurus.config.js)
+- [sidebars](sidebars.js)
+
+> 源码:
+
+- [index page](src/components/HomepageFeatures/index.tsx)
+  - 首页内容
+
+### Reference:
 
 > docs:
 

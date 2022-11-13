@@ -1,4 +1,4 @@
-# zig web 服务端:
+# rust web 服务端:
 
 ## web 框架:
 

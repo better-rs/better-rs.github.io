@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# Zig 生态
+# rust 生态
 
 ## Awesome:
 
@@ -10,45 +10,31 @@ sidebar_position: 0
 
 > search:
 
-- https://github.com/topics/ziglang
-- https://github.com/topics/zig
+- https://github.com/topics/rust
 
 > awesome:
 
-- https://github.com/nrdmn/awesome-zig
-- https://github.com/catdevnull/awesome-zig
-- https://github.com/C-BJ/awesome-zig
+
 
 > 学习教程:
 
-- https://github.com/Sobeston/ziglearn
-- https://ziglearn.org/
-- https://github.com/ratfactor/ziglings
 
-## Zig 工具链:
 
-> zig 编辑器 theme 主体配色:
+## Rust 工具链:
 
-- https://github.com/benbusby/colorstorm
+> rust 编辑器 theme 主体配色:
 
-> zig 版本管理工具:
 
-- https://github.com/marler8997/zigup
+> rust 版本管理工具:
 
-> zig 包管理工具:
 
-- https://github.com/catdevnull/awesome-zig#package-managers
-- https://github.com/zigtools/zpm
-- https://github.com/mattnite/gyro
-- https://github.com/nektro/zigmod
-- https://aquila.red/
-- https://zig.pm/
-- https://astrolabe.pm/
+> rust 包管理工具:
 
-> zig 代码分享:
 
-- https://zigbin.io/
+
+> rust 代码分享:
+
+
 
 > lint:
 
-- https://github.com/nektro/ziglint
