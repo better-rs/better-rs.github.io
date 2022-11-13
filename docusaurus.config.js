@@ -63,7 +63,7 @@ const config = {
         title: "Rust 学习", // todo x
         logo: {
           alt: "Rust Logo",
-          src: "img/logo.png",
+          src: "img/logo.svg",
         },
         items: [
           // TODO X: 教程
@@ -94,7 +94,7 @@ const config = {
             label: "生态",
           },
 
-          // todo x: 生态
+          // todo x: 源码分析
           {
             type: "docSidebar",
             position: "left",
@@ -135,7 +135,11 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "docs/guide/intro",
+              },
+              {
+                label: "Ecosystem",
+                to: "docs/ecosystem/index",
               },
             ],
           },
@@ -170,7 +174,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} better-rs. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

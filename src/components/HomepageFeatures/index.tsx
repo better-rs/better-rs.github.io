@@ -13,7 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Rust: A better C++',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/rust-flat-happy.svg').default,
     description: (
       <>
         <ul>
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '语法特性',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/rust-cuddlyferris.svg').default,
     description: (
       <>
         <ul>
@@ -46,7 +46,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '应用场景',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/rust-flat-gesture.svg').default,
     description: (
       <>
         <ul>
