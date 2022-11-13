@@ -1,6 +1,7 @@
 {
   "label": "Rust 读书笔记",
   "position": 5,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "5 minutes to learn the most important Docusaurus concepts."
