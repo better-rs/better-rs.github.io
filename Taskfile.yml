@@ -15,11 +15,13 @@ tasks:
     cmds:
       - task: commit
       - task: commit
+    ignore_error: true
 
   commit:
     cmds:
       - git add .
       - git commit -m "update"
+    ignore_error: true
 
   push:
     cmds:
