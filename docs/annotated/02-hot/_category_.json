@@ -1,0 +1,7 @@
+{
+  "label": "hot - 热门项目",
+  "link": {
+    "type": "generated-index",
+    "description": "zig hot - 社区热门项目源码分析."
+  }
+}
