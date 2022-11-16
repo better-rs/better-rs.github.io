@@ -55,6 +55,7 @@ task i18n:fr
 
 - https://docusaurus.io/zh-CN/docs/installation
 - [Docusaurus 2](https://docusaurus.io/)
+- [提示贴](https://docusaurus.io/zh-CN/docs/markdown-features/admonitions)
 
 > example:
 
