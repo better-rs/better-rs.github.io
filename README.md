@@ -43,6 +43,12 @@ task i18n:fr
 
 ```
 
+### docusaurus 配置定制:
+
+- https://docusaurus.io/zh-CN/docs/markdown-features/code-blocks
+- 支持 rust 语言高亮
+
+
 ### Reference:
 
 > docs:

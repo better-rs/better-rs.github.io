@@ -4,16 +4,55 @@ sidebar_position: 1
 
 # Hello World
 
-- Rust 最简单的示例:
+## Rust 最简单的示例:
 
 
 
-```rust
+```rust title="demo/src/main.rs" showLineNumbers
 
-
-
-
+// 函数定义:
+fn main() {
+    // highlight-next-line
+    println!("Hello, world!"); // println! 是宏, 不是函数
+}
 
 ```
+
+> 解释:
+
+- ✅ `fn` 是定义函数的关键字. 和其他语言类似
+- ✅ `println!` 是宏(C 宏进阶版, AST树插入+替换), 用于打印输出.
+- ✅ `;` 语句行结束, 不可省.
+- ✅ rust 语句 含有 `;` 和 不含有 `;`, 是有区别的:
+    - 含有 `;` 时, 是语句
+    - 不含有 `;`时, 是表达式(自带 return 效果)
+
+
+## Rust 单元测试:
+
+- 单元测试
+
+```rust title="demo/src/lib.rs" showLineNumbers
+
+#[cfg(test)]
+mod tests {
+
+    // highlight-next-line
+    #[test]
+    fn it_works() {
+        let result = 2 + 2;
+        assert_eq!(result, 4); // 断言
+    }
+}
+
+```
+
+> 解释:
+
+- ✅ `mod`, 定义`模块` 关键字. rust 通过 mod 组织模块代码, 类似 C++ namespace.
+- ✅ std 标准库预定义宏:
+    - ✅ `#[cfg(test)]` = `cfg!`, std 标准库预定义宏, 标注测试模块
+    - ✅ `#[test]` std 标准库预定义宏, 标注单个测试方法
+    - ✅ `assert_eq!` std 标准库预定义宏, 测试断言语句
 
 
