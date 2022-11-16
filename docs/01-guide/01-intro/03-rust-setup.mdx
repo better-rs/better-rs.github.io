@@ -13,14 +13,28 @@ sidebar_position: 3
 - https://www.rust-lang.org/zh-CN/learn/get-started
 
 
-> 安装 rustup:
+### 通过 rustup 安装 rust
+
+:::tip
+
+- `rustup` 是官方的安装工具, 推荐使用此安装 rust.
+- `rustup` 同时用于管理 rust 工具链, 激活交叉编译等.
+- 不要使用 `brew` 等平台工具安装 rust.
+
+:::
 
 
-```ruby
+
+```bash
 
 # 安装 rustup:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+```
+
+- 安装后, 检查版本:
+
+```bash
 
 ➤ rustup show
 Default host: aarch64-apple-darwin
@@ -44,17 +58,29 @@ rustc 1.67.0-nightly (85f4f41de 2022-11-08)
 
 ```
 
-> cargo 使用:
 
-- ✅ cargo 是 rust 官方的包管理工具.
+
+:::tip
+
+
+- cargo 是 rust 官方的包管理工具.
 - 类似 python 的 `pip`, go 的 `go mod`. nodejs 的 `npm/yarn/pnpm` 等.
+
+> cargo 常用命令:
+
 - ✅ cargo build 可以构建项目
 - ✅ cargo run 可以运行项目
 - ✅ cargo test 可以测试项目
 - ✅ cargo doc 可以为项目构建文档
 - ✅ cargo publish 可以将库发布到 crates.io。
 
-```ruby
+
+:::
+
+
+- 查看 cargo 版本:
+
+```bash
 
 cargo --version
 cargo 1.67.0-nightly (9286a1beb 2022-11-04)
@@ -64,7 +90,7 @@ cargo 1.67.0-nightly (9286a1beb 2022-11-04)
 > 验证安装成功:
 
 
-```ruby
+```bash
 
 ➤ rustc --version
 rustc 1.67.0-nightly (85f4f41de 2022-11-08)
@@ -73,49 +99,72 @@ rustc 1.67.0-nightly (85f4f41de 2022-11-08)
 
 ## IDE/编辑器配置:
 
-- 推荐使用 Clion 和 vscode.
+
+:::tip
+
+- rust 常用开发工具为 `Clion / vscode / Vim`.
+- 个人更推荐: [Clion](https://www.jetbrains.com/zh-cn/clion/).
+
+
+:::
 
 
 ### Clion 配置
 
-- [clion](https://www.jetbrains.com/zh-cn/clion/) 是 jetbrains 开发的 Rust/C/C++ 开发工具.
+
+:::info
+
+
+- [Clion](https://www.jetbrains.com/zh-cn/clion/) 是 jetbrains 开发的 Rust/C/C++ 开发工具.
 - Rust 首选开发工具.
 - 目前 `Clion` 对 rust 的支持比 `vscode + ra` 更强大(宏展开/代码补全).
 
+:::
 
-> 插件安装:
+
+#### Clion 安装 Rust 插件:
 
 - [Rust 插件](https://plugins.jetbrains.com/plugin/8182-rust)
 
-> rust 相关配置:
+#### Clion 配置:
+
+:::caution
 
 - action 开启 `org.rust.cargo.evaluate.build.scripts` 实验选项.
 - [clion - experimental-features](https://plugins.jetbrains.com/plugin/8182-rust/docs/rust-faq.html#experimental-features)
 
-> clion 配置完成.
+:::
+
+- 开启上述选项.
+- 配置完成.
+
+
 
 ### vscode + rust-analyzer 配置
 
-> 插件安装:
 
-- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
-> 安装 rust-analyzer:
+:::info
 
+- `vscode` 需要搭配 `rust-analyzer` 一起使用.
 - [rust-analyzer](https://github.com/rust-lang/rust-analyzer) 是 rust 官方推荐的 LSP 工具.
 - [rust-analyzer 安装教程](https://rust-analyzer.github.io/manual.html#rustup)
 
+:::
 
-```ruby
 
+
+#### vscode 插件安装:
+
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+
+```bash
 # 推荐安装方式:
 rustup component add rust-analyzer
 
-
 # macos:
 brew install rust-analyzer
-
-
 ```
 
 > vscode 配置完成.
