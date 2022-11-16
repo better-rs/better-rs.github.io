@@ -20,7 +20,7 @@ function HomepageHeader() {
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
-                        to="docs/guide/intro">
+                        to="docs/guide/roadmap">
 
                         Rust 学习教程
 
