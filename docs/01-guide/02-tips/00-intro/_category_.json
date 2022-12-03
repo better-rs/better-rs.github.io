@@ -1,0 +1,9 @@
+{
+  "label": "❗️扫盲",
+  "position": 0,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Rust 轻松时刻."
+  }
+}

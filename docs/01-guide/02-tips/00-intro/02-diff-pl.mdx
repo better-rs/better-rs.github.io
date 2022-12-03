@@ -1,0 +1,120 @@
+---
+sidebar_position: 1
+---
+
+# 对比其他语言
+
+:::caution
+
+- Rust 兼顾 OOP(面向对象) 和 FP(函数式) 编程范式.
+- 语法上, 大量借鉴其他语言优秀特性.
+- 选取主流具有`代表性`的通用语言做对比:
+    - go
+    - python(代表 ruby/js 等同一类语言)
+    - c++
+
+:::
+
+> rust OOP(面向对象编程) 特性:
+
+- `对象、封装、继承和多态`, 对应 Rust 的一些特性: `struct, impl, pub, trait` 等
+
+> rust FP(functional programming)函数式语言特性:
+
+- `闭包（Closures）`, 一个可以储存在变量里的类似函数的结构
+- `迭代器（Iterators）`, 一种处理元素序列的方式
+- `链式操作`
+
+## 与 OCaml 关系
+
+:::tip
+
+- Rust 首个编译器, 是使用 [OCaml](https://ocaml.org/) 实现.
+
+:::
+
+- ✅ [OCaml](https://ocaml.org/) 语言, 是函数式语言.
+- ✅ Rust 语言, 包含大量函数式特性.
+- ✅ [OCaml在写编译器上比Haskell好在哪？为何Rust第一个版本采用了OCaml？](https://www.zhihu.com/question/62971835)
+
+## 与 C/C++/Zig 关系
+
+:::tip
+
+- `Zig/Rust`, 是 `C/C++` 的替代品.
+- Rust: a better C++. 和 C++ 语法同样复杂
+- Zig: a better C. 语法简单 + 功能强大.
+
+:::
+
+> 与 C/C++ 关系:
+
+- ✅ Rust 正在大量重写 C/C++ 生态.
+
+> 与 Zig 关系:
+
+- ✅ Zig 目前比较小众, 不单独讨论. 有兴趣的可以自行搜索.
+- ✅ [Zig vs Rust](https://www.ziglang.org/#Zig-vs-Rust)
+- ✅ 长期看, Zig 与 Rust 会有竞争关系, 也有互补关系. 总体是 互补 > 竞争.
+- ✅ 协同效应: ⭐️⭐️⭐️.
+
+## 与 Go 关系
+
+:::tip
+
+- Rust 对 Go 是全方位的`替代`关系.
+- Go 和 Rust 相比, 除了语法简单, 几乎没有优势.
+- 协同效应: ⭐️️
+    - ❌ 非常不推荐 `Rust + Go` 协作开发.
+    - ❌ `Rust + Go` 协同收益 < `Rust + Python/Ruby/Nodejs/PHP`.
+
+:::
+
+
+
+> 相似点:
+
+- rust 的 `struct` 类似 go 的 `struct`.
+    - 基础使用相近.
+- rust 的 `trait` 类似 go 的 `interface`.
+    - 二者使用上, 优雅程度不相上下.
+    - rust 更灵活.
+- `rust workspace` 类似 `go.work`.
+    - 二者都是为了解决 `多项目` 开发的问题.
+- `rust cargo.toml` 类似 `go.mod`.
+    - 二者都是为了解决 `依赖管理` 的问题.
+- `rust cargo 指令` 类似 `go mod 指令`.
+    - 都是包管理工具.
+    - cargo 更加强大
+
+> 不同点:
+
+- rust `No GC`  vs go `GC`.
+- 语法上的差异, 无需过多讨论.
+
+## 与 Python 关系
+
+:::tip
+
+- 可以基于 `FFI` 使用 rust, 为 Python 编写底层库.
+- 协同效应: ⭐️⭐️⭐️⭐️⭐️.
+    - 兼顾开发效率和性能.
+    - 前期开发, 用 Python, 后期性能瓶颈, 用 Rust 重构/重写.
+
+:::
+
+
+
+
+> 相似点:
+
+- rust `impl` +  `struct` 类似 python `class`.
+    - rust `self` 参数 类似 python 类 `self` 参数 .
+- rust `mod.rs` 类似 python `__init__.py`.
+    - 功能和作用基本一致.
+- rust `函数式`相关特性, 基本和 python 相关特性类似.
+
+> 不同点:
+
+- rust `No GC`  vs python `GC`.
+- 语法上的差异, 无需过多讨论.
