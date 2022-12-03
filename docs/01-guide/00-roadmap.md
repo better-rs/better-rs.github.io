@@ -2,8 +2,17 @@
 sidebar_position: 0
 ---
 
-# 🦀 rust 学习路线图
+# 🦀 Rust 学习路线图
 
+## 阅读顺序:
+
+- ✅ [Rust 快速开始](intro/) 
+  - ✅ [Rust 基础语法](core/intro): 先掌握语法
+    - ✅ [Rust 必知必会](tips/rule): rust 踩坑
+      - ✅ [Rust 入门实践](praticse/intro/): 边学边练
+        - ✅ [Rust 高级语法](pro/intro): rust 复杂语法特性
+
+  
 ## 开始之前 {#before-start}
 
 :::danger
@@ -26,7 +35,7 @@ sidebar_position: 0
 - ✅ 本教程, 希望能降低 rust 初学者门槛, 让大家都能学会, 而不是半途而废.
 - ⛽️ 加油.
 
-## 为什么要学 Rust?  {#why-rust}
+## 为什么要学 Rust? {#why-rust}
 
 :::tip
 
@@ -37,13 +46,26 @@ sidebar_position: 0
 
 :::
 
-## 本教程存在意义?  {#why-this}
+## 本教程存在意义? {#why-this}
 
-### 目标:
 
-- ✅ 让 rust 初学者, 以`最短时间`快速入门.
+### 目标人群:
 
-### 为什么不跟着 rust 官方教程学?  {#why-not-std}
+> 适合:
+
+- ✅ Rust 初学者: 有一定其他编程语言(C/Java/Go/Python/JavaScript等)基础
+- ✅ 小目标: 零基础 -> 入门(1-3个月) -> 掌握 (1年)
+  - 小目标, 是本教程核心, 力求: 初学者以`最短路径`快速入门 + 掌握 Rust.
+- ✅ 大目标: 掌握 -> 进阶(1-3年) -> 精通(3-5年) -> 专家
+  - 教程持续迭代, 最终覆盖
+
+> 不适合:
+
+- ❌ 已掌握 Rust 的开发者, 可以忽略本教程
+- ❌ 完全无编程基础, 建议先学习 `Python/TypeScript/Dart` 等之后, 再尝试学习 Rust
+
+
+### 为什么不跟着 rust 官方教程学? {#why-not-std}
 
 :::caution
 
@@ -62,7 +84,7 @@ sidebar_position: 0
 - ✅ 能读懂 rust 社区项目 80% 的代码(目标很低, 够用)
 - ✅ 能上手写 rust 项目
 
-## Rust 快速学习方案  {#quickstart}
+## Rust 快速学习方案 {#quickstart}
 
 - 学 rust 没有最短路径, 此教程, 只是尽可能让学习者少走弯路.
 
@@ -111,7 +133,6 @@ sidebar_position: 0
 - rust **热门项目**源码分析
 
 :::
-
 
 - 读源码, 是最快速的学习+提高手段. 适合任何水平段的程序员.
 - 源码之前, 了无秘密.
