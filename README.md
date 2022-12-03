@@ -17,6 +17,17 @@
 
 - ✅ [Taskfile](Taskfile.yml)
 
+```ruby
+
+# local run:
+task dev
+
+# or
+npm start
+
+```
+
+
 > 配置:
 
 - ✅ [docusaurus.config.js](docusaurus.config.js)
